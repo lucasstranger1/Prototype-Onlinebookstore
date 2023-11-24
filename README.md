@@ -121,4 +121,4 @@ Several future enhancements can be implemented to elevate the user experience an
 
 ## Appendix
 
-URL: [lucassummerinternship.000.pe](https://lucassummerinternship.000.pe)
+URL: [lucassummerinternship.000.pe](http://lucassummerinternship.000.pe/)
