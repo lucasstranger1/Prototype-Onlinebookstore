@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>User Registration and Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li class="navitem">
+            <a href="index.php">
+                <img class="logo" src="img/logo.png" alt="Logo">
+            </a>
+        </li>
+        
+        <li class="navitem"><a href="index.php">Homepage</a></li>
+        <li class="navitem"><a href="shoppingcart.php">Shopping Cart</a></li>
+        <li class="navitem"><a href="login.html">Login/Register</a></li>
+    </ul>
+    <!-- Login Form -->
+    <div class="form-container">
+        <form action="/action_page.php" method="post" class="login-container">
+            <h2>Login Form</h2>
+            <div class="imgcontainer">
+                <img class="profile" src="/img/profile.png" alt="Avatar" class="avatar">
+            </div>
+            
+            <div class="container-login">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" class="login-input" required>
+                
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" class="login-input" required>
+                <input type="hidden" name="login" value="1">
+                <button type="submit" class="loginbtn">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            
+            <div class="container-login" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Haven't registered? <a href="register.html" class="login-link">Register!</a></span>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

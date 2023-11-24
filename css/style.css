@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, Helvetica, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+}
+/* Home Page*/
+/* ________________________________________________________ */
+/* Add some basic styling for the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Ensures it's above other content */
+}
+
+li.navitem {
+    margin-right: 20px;
+}
+
+li.navitem:last-child {
+    margin-right: 0;
+}
+
+li.navitem a {
+    display: block;
+    font-size: larger;
+    color: rgb(7, 7, 7);
+    text-align: center;
+    text-decoration: none;
+}
+
+li.navitem a:hover {
+    background-color: #ece9e9;
+}
+
+/* Styling for the logo image */
+img.logo {
+    height: 90px;
+    margin-right: 10px;
+}
+.pageslides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Adjusted height to center forms vertically */
+
+}
+
+.footer{
+    grid-row: auto;
+}
+.mySlides {display:none}
+
+#orderButton{
+    background-color: #fafafa;
+    font-size: medium;
+    width: 200px;
+    color: rgb(7, 7, 7);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0 4px 6px rgba(179, 178, 178, 0.9);
+}
+.row {
+    display: grid; /* Correct the typo here */
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns and sizing as needed */
+    gap: 20px; /* Add some gap between columns if needed */
+}
+
+.container-column {
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 50%; /* Adjust this as needed */
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9); /* Add box shadow */
+    transition: box-shadow 0.3s ease; /* Add a transition for smoother hover effect */
+}
+
+
+.container-column .middle {
+    opacity: 0;
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; /* Center the text horizontally */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.container-column:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgb(224, 220, 220);
+    color: rgb(6, 6, 6);
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    display: inline-block;
+ }
+ .footer-img{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+ }
+/* ________________________________________________________ */
+
+/* login/Register page */
+/* ________________________________________________________ */
+img.profile{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    background: transparent;
+}
+
+/* Common styling for login and registration forms */
+.login-input, .register-input {
+    width: 90%; /* Adjusted to fill the container */
+    padding: 15px;
+    margin: 5px 0;
+    border: none;
+    background: #f1f1f1;
+    display: block; /* Make the input elements block-level */
+}
+
+.login-input:focus, .register-input:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.login-hr, .register-hr {
+    border: 1px solid #f1f1f1;
+    margin: 25px 0; /* Adjusted margin */
+}
+
+.loginbtn, .registerbtn {
+    background-color: #a5a6a6;
+    font-size: medium;
+    color: rgb(7, 7, 7);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.loginbtn:hover, .registerbtn:hover {
+    opacity: 0.5;
+}
+
+.login-link, .register-link {
+    color: rgb(13, 63, 241);
+}
+.imgcontainer {
+    text-align: center; /* Center the content horizontally */
+}
+
+.profile {
+    display: inline-block; /* Make the image inline-block to center it */
+}
+
+/* Styling for the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Adjusted height to center forms vertically */
+}
+
+/* Styling for the login form container */
+.login-container {
+    border: 1px solid #ccc; /* Add a 1-pixel solid border to the login form container */
+    padding: 20px; /* Add padding for better visual separation */
+}
+
+.register-container {
+    border: 1px solid #ccc; /* Add a 1-pixel solid border to the login form container */
+    padding: 20px; /* Add padding for better visual separation */
+}
+/* ________________________________________________________ */
+
+.user-info{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
