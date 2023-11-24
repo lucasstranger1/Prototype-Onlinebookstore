@@ -1,7 +1,7 @@
 # BookWorm Haven
 ![Image Description](https://github.com/lucasstranger1/Prototype-Onlinebookstore/raw/main/homepagePicture1.png)
 ![Image Description](https://github.com/lucasstranger1/Prototype-Onlinebookstore/raw/main/homepagePicture3.png)
-
+![Image Description](https://github.com/lucasstranger1/Prototype-Onlinebookstore/raw/main/shoppingcartPicture4.png)
 
 
 
